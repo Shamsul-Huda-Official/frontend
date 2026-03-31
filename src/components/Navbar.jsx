@@ -4,6 +4,7 @@ import { useAppContext } from "../context/AppContext"
 import { ROUTES } from "../constants/routes";
 import { useNavigate, useLocation } from "react-router-dom";
 import logo from '../assets/images/shia-logo-j (1).png'
+import PageLoader from "./PageLoader";
 
 export default function Navbar() {
     const { openDrawer } = useAppContext();
