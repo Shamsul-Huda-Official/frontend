@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { useAppContext } from "../context/AppContext"
 import { ROUTES } from "../constants/routes";
 import { useNavigate, useLocation } from "react-router-dom";
+import logo from '../assets/images/shia-logo-j (1).png'
 
 export default function Navbar() {
     const { openDrawer } = useAppContext();
@@ -54,7 +55,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between py-1 md:px-16">
                 
                 <div className="w-36">
-                    <img src="/src/assets/images/shia-logo-j (1).png" alt="" />
+                    <img src={logo} alt="Logo" />
                 </div>
 
                 <div className="justify-between hidden gap-6 text-lg font-medium lg:flex">

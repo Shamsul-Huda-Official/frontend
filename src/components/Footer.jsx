@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import logo from '../assets/images/shia-logo-j (1).png'
 
 export default function Footer() {
     return (
@@ -9,7 +10,7 @@ export default function Footer() {
 
           <div className="md:col-span-5">
             <img 
-              src="/src/assets/images//shia-logo-j (1).png"
+              src={logo}
               alt="Logo"
               className="h-12 mb-4" 
             />

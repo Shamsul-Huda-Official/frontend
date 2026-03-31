@@ -1,3 +1,8 @@
+import students from '../assets/images/student.png'
+import faculties from '../assets/images/faculty.png'
+import digital from '../assets/images/digital.png'
+import library from '../assets/images/library.png'
+
 export default function Info() {
     return (
         <section className="flex flex-col min-h-screen">
@@ -35,7 +40,7 @@ export default function Info() {
     <div className="flex flex-col md:h-44 md:flex-row items-center justify-between gap-10 bg-[#18e13d] rounded-lg shadow-md px-6 py-8 w-80 md:w-fit">
 
         <div className="flex items-center gap-3">
-            <img src="./src/assets/images/students.png" className="h-16" />
+            <img src={students} className="h-16" />
             <div>
                 <h2 className="gap-2 text-4xl font-bold text-white">300+</h2>
                 <p className="text-xl font-semibold text-white/90">Students</p>
@@ -43,7 +48,7 @@ export default function Info() {
         </div>
 
         <div className="flex items-center gap-3">
-            <img src="../assets/images/faculties.png" className="h-24 " />
+            <img src={faculties} className="h-24 " />
             <div>
                 <h2 className="gap-2 text-4xl font-bold text-white">20+</h2>
                 <p className="text-xl font-semibold text-white/90">Faculties</p>
@@ -51,7 +56,7 @@ export default function Info() {
         </div>
 
         <div className="flex items-center gap-3">
-            <img src="/src/assets/images/digital.png" className="h-20" />
+            <img src={digital} className="h-20" />
             <div>
                 <h2 className="gap-2 text-4xl font-bold text-white">10+</h2>
                 <p className="text-xl font-semibold text-white/90">Digital Classes</p>
@@ -59,7 +64,7 @@ export default function Info() {
         </div>
 
         <div className="flex items-center gap-3">
-            <img src="/src/assets/images/library.png" className="h-24" />
+            <img src={library} className="h-24" />
             <div>
                 <h2 className="gap-2 text-4xl font-bold text-white">10000+</h2>
                 <p className="text-xl font-semibold text-white/90">Library Books</p>
