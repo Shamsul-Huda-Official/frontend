@@ -35,7 +35,7 @@ export default function Info() {
     <div className="flex flex-col md:h-44 md:flex-row items-center justify-between gap-10 bg-[#18e13d] rounded-lg shadow-md px-6 py-8 w-80 md:w-fit">
 
         <div className="flex items-center gap-3">
-            <img src="/src/assets/images/student.png" className="h-16" />
+            <img src="./src/assets/images/students.png" className="h-16" />
             <div>
                 <h2 className="gap-2 text-4xl font-bold text-white">300+</h2>
                 <p className="text-xl font-semibold text-white/90">Students</p>
@@ -43,7 +43,7 @@ export default function Info() {
         </div>
 
         <div className="flex items-center gap-3">
-            <img src="/src/assets/images/faculty.png" className="h-24 " />
+            <img src="../assets/images/faculties.png" className="h-24 " />
             <div>
                 <h2 className="gap-2 text-4xl font-bold text-white">20+</h2>
                 <p className="text-xl font-semibold text-white/90">Faculties</p>
