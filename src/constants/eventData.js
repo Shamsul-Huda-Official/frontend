@@ -1,3 +1,4 @@
+
 export const eventsData = [
     {
         id: 1,
@@ -11,6 +12,6 @@ export const eventsData = [
         title: 'Stand Point 2025',
         description: 'Stand Point 2025, Discover | Debate | Develop',
         date: 'Dec 25, 2025',
-        image: '/src/assets/images/programme-2.jpg',
+        image: '../assets/images/programme-2.jpg',
     },
 ]
