@@ -4,7 +4,7 @@ const facilities = [
     {
         id: 1, 
         name: 'Library',
-        image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1400&q=80',
+        image: '/src/assets/images/library.JPG',
     },
       {
     id: 2,
@@ -13,13 +13,13 @@ const facilities = [
   },
   {
     id: 3,
-    name: 'Laboratory',
-    image: 'https://images.unsplash.com/photo-1532094349884-543559c5e7f4?w=1400&q=80',
+    name: 'Mosque',
+    image: '/src/assets/images/mosque.JPG',
   },
   {
     id: 4,
-    name: 'Mosque',
-    image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1400&q=80',
+    name: 'Computer Lab',
+    image: '/src/assets/images/computer.JPG',
   },
   {
     id: 5,
