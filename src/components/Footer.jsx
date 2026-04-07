@@ -44,7 +44,7 @@ export default function Footer() {
 
         <div className="pt-8 mt-12 border-t border-gray-700">
           <p className="text-sm text-gray-500">
-            © All Right Reserved 2025.
+            © All Right Reserved 2016.
           </p>
         </div>
 
